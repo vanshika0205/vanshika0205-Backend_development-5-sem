@@ -1,3 +1,6 @@
+// promise is an object which represent eventual complettion or failur of an asynchronous operation
+
+
 let p = new Promise((resolve,reject)=>{
     let age=18;
     if(age>18)return ("you are elegible to vote")
